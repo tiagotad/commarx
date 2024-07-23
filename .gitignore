@@ -1,0 +1,29 @@
+# Ignore arquivos de sistema e diretórios temporários
+.hugo_build.lock
+.DS_Store
+Thumbs.db
+
+# Ignore a pasta .git que contém o repositório local
+.git/
+
+# Ignore submódulos do Git
+.gitmodules
+
+# Ignore arquivos gerados pelo HUGO
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Ignore módulos Go (se aplicável)
+go.mod
+go.sum
+
+# Outros arquivos e diretórios específicos do sistema
+.cache/
+logs/
+*.log
+
+# Ignore arquivos de configuração locais (se você não quer versioná-los)
+#config.toml
+config.yaml
+config.json
